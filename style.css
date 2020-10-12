@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    height: 75px;
+    background-color: black;
+    color: white;
+    flex-direction: row-reverse;
+  
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.item{
+    margin: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+.slider{
+    width: 100%;
+    height: 400px;
+
+  background: url(img/1.jpg) no-repeat center center/cover;
+    margin: 5px auto;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    20%{
+        background: url(img/2.jpg)no-repeat center center/cover;   }
+    40%{
+        background: url(img/3.jpg)no-repeat center center/cover;   }
+    60%{
+        background: url(img/4.jpg)no-repeat center center/cover;   }
+    80%{
+        background: url(img/5.jpg)no-repeat center center/cover;   }
+    100%{
+        background: url(img/1.jpg)no-repeat center center/cover;   }
+}
+.slide1{
+    width: 25%;
+    height: 200px;
+
+  background: url(img/3.jpg) ;
+    margin: 5px auto;
+    animation: slide1 12s infinite;
+
+}
+.slide2{
+    width: 25%;
+    height: 200px;
+
+  background: url(img/4.jpg) ;
+    margin: 5px auto;
+    animation: slide2 12s infinite;
+
+}
+.slide3{
+    width: 25%;
+    height: 200px;
+
+  background: url(img/1.jpg);
+    margin: 5px auto;
+    animation: slide3 12s infinite;
+
+}
+.slide4{
+    width: 25%;
+    height: 200px;
+
+  background: url(img/2.jpg);
+    margin: 5px auto;
+    animation: slide4 12s infinite;
+
+}
+@keyframes slide1{
+    20%{
+        background: url(img/4.jpg);   }
+    40%{
+        background: url(img/5.jpg);   }
+    60%{
+        background: url(img/1.jpg);   }
+    80%{
+        background: url(img/2.jpg);   }
+    100%{
+        background: url(img/3.jpg);   }
+}@keyframes slide2{
+    20%{
+        background: url(img/5.jpg);   }
+    40%{
+        background: url(img/1.jpg);   }
+    60%{
+        background: url(img/2.jpg);   }
+    80%{
+        background: url(img/3.jpg);   }
+    100%{
+        background: url(img/4.jpg);   }
+}@keyframes slide3{
+    20%{
+        background: url(img/2.jpg);   }
+    40%{
+        background: url(img/3.jpg);   }
+    60%{
+        background: url(img/4.jpg);   }
+    80%{
+        background: url(img/5.jpg);   }
+    100%{
+        background: url(img/1.jpg);   }
+}@keyframes slide4{
+    20%{
+        background: url(img/3.jpg);   }
+    40%{
+        background: url(img/4.jpg);   }
+    60%{
+        background: url(img/5.jpg);   }
+    80%{
+        background: url(img/1.jpg);   }
+    100%{
+        background: url(img/2.jpg);   }
+}
+.box{
+    display: flex;
+    margin: auto 5px;
+}
+.box div{
+    margin: 10px 15px;
+}
+
+#footer {
+
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px; 
+}
+.menu{
+    margin: 15px;
+    cursor: pointer;
+}
